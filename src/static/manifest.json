@@ -8,7 +8,11 @@
     "48": "icon.png",
     "128": "icon.png"
   },
-  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>","*://*.googleadservices.com/*", "*://*.tpc.googlesyndication.com/*", "*://*.g.doubleclick.net/*"],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
   "background": {
     "service_worker": "background.js"
   },
