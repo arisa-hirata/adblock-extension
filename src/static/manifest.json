@@ -10,10 +10,10 @@
   },
   "permissions": ["declarativeNetRequest"],
   "declarative_net_request": {
-    "rules_resources": [
+    "rule_resources": [
       {
         "id": "request_1",
-        "enabled": true,
+        "enabled": false,
         "path": "rules.json"
       }
     ]
